@@ -58,15 +58,15 @@
     <Compile Include="EnumBindingSourceExtension.cs" />
     <Compile Include="EnumDescriptionTypeConverter.cs" />
     <Compile Include="LocalizedDescriptionAttribute.cs" />
+    <Compile Include="Resources\EnumResources.Designer.cs">
+      <DependentUpon>EnumResources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
     <Compile Include="Resources\EnumResources.ja-JP.Designer.cs">
       <DependentUpon>EnumResources.ja-JP.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-    </Compile>
-    <Compile Include="Resources\EnumResources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>EnumResources.resx</DependentUpon>
     </Compile>
     <Compile Include="Status.cs" />
     <Page Include="MainWindow.xaml">
