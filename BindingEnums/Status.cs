@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using BindingEnums.Resources;
+using System.ComponentModel;
 
 namespace BindingEnums
 {
@@ -11,11 +12,11 @@ namespace BindingEnums
         Bad,
         [Description("This is so so")]
         SoSo,
-        [Description("This is good")]
+        [LocalizedDescription("Good", typeof(EnumResources))]
         Good,
-        [Description("This is better")]
+        [LocalizedDescription("Better", typeof(EnumResources))]
         Better,
-        [Description("This is best")]
+        [LocalizedDescription("Best", typeof(EnumResources))]
         Best
     }
 }
